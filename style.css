@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "P22 Folk Art W01 Stitch";
+    src: url("P22_Folk_Art_Cyrillic.ttf");
+
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "P22 Folk Art W01 Stitch", sans-serif;
+    user-select: none;
+}
+
+body {
+    color: rgb(168, 168, 168);
+    background-color: #16171b;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 28px;
+    margin: 0;
+}
+
+form {
+    display: inline-block;
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 90%;
+    background-color: #16171b;
+    border: none;
+    caret-color: rgb(168, 168, 168);
+    outline-offset: 5px;
+    font-size: 28px;
+    color: rgb(168, 168, 168);
+}
+
+input[type="text"]:focus,
+input[type="text"]:focus-visible {
+    outline: none;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
